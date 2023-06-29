@@ -17,10 +17,15 @@ query querySpendingByCustomerByMonth.sql
 
 query queryFilmOutOfStock.sql
   Make a query to find out all the films which are out of stock
-  Show the results with film's title and sorted ascendingly
+  Show the results with film's title and sort ascendingly
   Output table: tableFilmOutOfStock.csv
 
 query queryFilmLengthClassification.sql
   Make a query to classify all films into 3 types of length
-  Show the result with film's title and sorted ascendingly
+  Show the result with film's title and sort ascendingly
   Output table: tableFilmLengthClassification.csv
+
+query queryTopRevenueCustomerOver100.sql
+  Make a query to find out all the customers who spent over 100 totally
+  Show the result with customers' full name and sort by customer ID ascendingly
+  Output table: tableTopRevenueCustomerOver100.csv
