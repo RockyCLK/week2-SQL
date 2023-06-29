@@ -19,3 +19,8 @@ query queryFilmOutOfStock.sql
   Make a query to find out all the films which are out of stock
   Show the results with film's title and sorted ascendingly
   Output table: tableFilmOutOfStock.csv
+
+query queryFilmLengthClassification.sql
+  Make a query to classify all films into 3 types of length
+  Show the result with film's title and sorted ascendingly
+  Output table: tableFilmLengthClassification.csv
