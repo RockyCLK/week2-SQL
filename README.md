@@ -36,6 +36,7 @@ query7 queryCorrFilmDurationVsLength.sql
 
 query8 queryCustomerListFullNameFullAddress.sql
   Make a query to list out all customers' full names and full address
+  Use both concat() and concat_ws() functions 
   Output table: tableCustomerListFullNameFullAddress.csv
 
 query1 createTableFilmHighestRate.sql
