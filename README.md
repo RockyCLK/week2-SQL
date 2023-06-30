@@ -44,5 +44,5 @@ query1 createTableFilmHighestRate.sql
   Output table: tableFilmHighestRate.csv
 
 query queryAggFilmTitleGrpByRate.sql
-  Make a query to concatenate all the film titles and group them by rental rate
+  Make a query to concatenate all the film titles into a single string and group them by rental rate
 Output table: tableAggFilmTitleGrpByRate
