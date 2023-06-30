@@ -27,9 +27,13 @@ query5 queryFilmLengthClassification.sql
 
 query6 queryTopRevenueCustomerOver100.sql
   Make a query to find out all the customers who spent over $100 total.
-  Show the result with customers' full name and sort by customer ID ascendingly
+  Show the result with customers' full names and sort by customer ID ascendingly
   Output table: tableTopRevenueCustomerOver100.csv
 
 query7 queryCorrFilmDurationVsLength.sql
   Make a query to find the correlation between Film's rental duration and length
   Output table: tableCorrFilmDurationVsLength.csv
+
+query8 queryCustomerListFullNameFullAddress.sql
+  Make a query to list out all customers' full names and full address
+  Output table: tableCustomerListFullNameFullAddress.csv
