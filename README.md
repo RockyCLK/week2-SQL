@@ -40,5 +40,9 @@ query8 queryCustomerListFullNameFullAddress.sql
 
 query1 createTableFilmHighestRate.sql
   Created a new table called film_high_rate
-  Copy the entities from film with highest rental_rate
+  Copy the entities from film with highest rental rate
   Output table: tableFilmHighestRate.csv
+
+query queryAggFilmTitleGrpByRate.sql
+  Make a query to concatenate all the film titles and group them by rental rate
+Output table: tableAggFilmTitleGrpByRate
