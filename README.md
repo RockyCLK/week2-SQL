@@ -37,3 +37,8 @@ query7 queryCorrFilmDurationVsLength.sql
 query8 queryCustomerListFullNameFullAddress.sql
   Make a query to list out all customers' full names and full address
   Output table: tableCustomerListFullNameFullAddress.csv
+
+query1 createTableFilmHighestRate.sql
+  Created a new table called film_high_rate
+  Copy the entities from film with highest rental_rate
+  Output table: tableFilmHighestRate.csv
