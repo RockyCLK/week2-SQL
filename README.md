@@ -39,11 +39,15 @@ query8 queryCustomerListFullNameFullAddress.sql
   Use both concat() and concat_ws() functions 
   Output table: tableCustomerListFullNameFullAddress.csv
 
-query1 createTableFilmHighestRate.sql
+query9 createTableFilmHighestRate.sql
   Created a new table called film_high_rate
   Copy the entities from film with highest rental rate
   Output table: tableFilmHighestRate.csv
 
-query queryAggFilmTitleGrpByRate.sql
+query10 queryAggFilmTitleGrpByRate.sql
   Make a query to concatenate all the film titles into a single string and group them by rental rate
-Output table: tableAggFilmTitleGrpByRate
+  Output table: tableAggFilmTitleGrpByRate.csv
+
+query11 queryFilmInStockNoRental.sql
+  Make a query to list out all films that are in stock but have no rental history
+  Output table: tableFilmInStockNoRental.csv
